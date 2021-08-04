@@ -1,0 +1,6 @@
+br\ifpb\edu\entities\gerente\TesteGerente.class
+br\ifpb\edu\entities\TesteFuncionário.class
+br\ifpb\edu\entities\Funcionário.class
+br\ifpb\edu\entities\professor\Professor.class
+br\ifpb\edu\entities\gerente\Gerente.class
+br\ifpb\edu\entities\professor\TesteProfessor.class

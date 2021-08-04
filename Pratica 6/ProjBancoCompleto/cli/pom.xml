@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <!-- Dados do pom pai -->
+    <parent>
+        <artifactId>ProjBancoCompleto</artifactId>
+        <groupId>br.com.guilherme</groupId>
+        <version>1.0-SNAPSHOT</version>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <!-- Nome do módulo -->
+    <artifactId>cli</artifactId>
+
+    <!-- Dependências -->
+    <dependencies>
+        <dependency>
+            <groupId>br.com.guilherme</groupId>
+            <artifactId>banco</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+        <dependency>
+            <groupId>br.com.guilherme</groupId>
+            <artifactId>conta</artifactId>
+            <version>1.0-SNAPSHOT</version>
+            <scope>compile</scope>
+        </dependency>
+    </dependencies>
+
+    <!-- Builds -->
+    <build>
+        <!-- Plugins -->
+        <plugins>
+            <!-- Plugin gerador de Fat Jar (Empacotamento dos módulos do projeto em um só .jar) -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.3</version>
+                <executions>
+                    <execution>
+                        <id>create-fat-jar</id>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <transformers>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>br.com.guilherme.cli.MainCLI</mainClass> <!-- Classe do Main Principal -->
+                                </transformer>
+                            </transformers>
+                            <finalName>MainCLI</finalName> <!-- Nome desejado para o .jar final -->
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+        </plugins>
+    </build>
+
+
+</project>

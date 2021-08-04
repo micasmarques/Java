@@ -1,0 +1,46 @@
+Anchorage,  AK,  298610
+Birmingham,  AL,  212038
+Conway,  AR,  62939
+Avondale,  AZ,  78256
+Alameda,  CA,  75641
+Arvada,  CO,  109745
+Bridgeport,  CT,  146425
+Washington,  DC,  632323
+Boca Raton,  FL,  87836
+Alpharetta,  GA,  61981
+Honolulu,  HI,  345610
+Ames,  IA,  60634
+Boise,  ID,  212303
+Arlington Heights,  IL,  75777
+Anderson,  IN,  55554
+Lawrence,  KS,  89512
+Bowling Green,  KY,  60600
+Baton Rouge,  LA,  230058
+Boston,  MA,  636479
+Baltimore,  MD,  621342
+Ann Arbor,  MI,  116121
+Blaine,  MN,  59412
+Billings,  MO,  106954
+Gulfport,  MS,  70113
+Asheville,  NC,  85712
+Bismarck,  ND,  64751
+Lincoln,  NE,  265404
+Manchester,  NH,  110209
+Bayonne,  NJ,  64416
+Albuquerque,  NM,  555417
+Henderson,  NV,  265679
+Albany,  NY,  97904
+Akron,  OH,  198549
+Broken Arrow,  OK,  102019
+Beaverton,  OR,  92680
+Allentown,  PA,  118974
+Cranston,  RI,  80529
+Charleston,  SC,  125583
+Rapid,  SD,  69854
+Bartlett,  TN,  55945
+Abilene,  TX,  118887
+Layton,  UT,  68677
+Alexandria,  VA,  146294
+Auburn,  WA,  73505
+Appleton,  WI,  73016
+Casper,  WY,  57813

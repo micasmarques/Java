@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/ProjHeranca.iml" filepath="$PROJECT_DIR$/ProjHeranca.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulo-cli/modulo-cli.iml" filepath="$PROJECT_DIR$/modulo-cli/modulo-cli.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulo-funcionario/modulo-funcionario.iml" filepath="$PROJECT_DIR$/modulo-funcionario/modulo-funcionario.iml" />
+      <module fileurl="file://$PROJECT_DIR$/modulo-universidade/modulo-universidade.iml" filepath="$PROJECT_DIR$/modulo-universidade/modulo-universidade.iml" />
+    </modules>
+  </component>
+</project>

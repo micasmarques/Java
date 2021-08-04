@@ -1,0 +1,5 @@
+br\ifpb\edu\cli\views\MainCLI.class
+br\ifpb\edu\cli\controllers\enums\OpçõesDoMenuUniversidade.class
+br\ifpb\edu\cli\views\MainCLI$1.class
+br\ifpb\edu\cli\controllers\Menu.class
+br\ifpb\edu\cli\controllers\enums\OpçõesDoMenuFuncionário.class
